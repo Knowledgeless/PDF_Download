@@ -8,6 +8,5 @@ To use this script you have to be installed these few things.
 - bs4
 Because of it's a python script, it's not make any sense that you maust have to installed python. But if you get some unknow errors, then just let me know. I will try to fix them. 
 
-=> EnjoyYourBooks
-
-<h3> HappyCoding </h3>
+<h4> EnjoyYourBooks </h4>
+<h4> HappyCoding </h4>
