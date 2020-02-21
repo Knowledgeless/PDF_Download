@@ -1,6 +1,6 @@
 # PDF_Download
 
-This script will work for "https://bdebooks.com/" 
+This script will work for "https://bdebooks.com/". 
 To use this script you have to be installed these few things.
 - pip & pip3
 - tqdm
