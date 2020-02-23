@@ -93,7 +93,7 @@ try:
 											r = requests.get(dl, stream = True)
 											total = int(r.headers['content-length'])
 												#downloading code
-											with open("book_{}".format(count), "wb") as f:
+											with open("book_{}.pdf".format(count), "wb") as f:
 												for data in tqdm(iterable = r.iter_content(chunk_size=1024), total=total/1024, unit="KB"):
 													f.write(data)
 											print(Colors.Green+"Complete!")
@@ -103,11 +103,11 @@ try:
 					print(Colors.Red+Colors.Red+"Sorry, Check Your Input!")
 			except KeyboardInterrupt:
 				print(Colors.Red+"\nYou Exited Manually")
-			except:
-				print("Check Your URL")
+			# except:
+			# 	print("Check Your URL")
 		except ValueError:
 			print(Colors.Red+"Value Error!") 
-		except ModuleNotFoundError:
+		except ImportError:
 			print(Colors.Red+'''
 
 				[+] You Have To Install These First
