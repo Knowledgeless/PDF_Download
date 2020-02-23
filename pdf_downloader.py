@@ -1,11 +1,13 @@
 '''
 
-This script will download your pdf books from bdebooks.com website. It is boaring to download lots of books manually. So, I tried to make it easier.
+This script will download pdf books from bdebooks.com website for you. 
+I think it's very boaring task to download lots of book manually. So, I tried to make it easier. 
+You can use this on your phone also.
 
 EnjoyYourBooks. 
 #HappyCoding
 
-Author: Knowledgeless
+Author: knowledgeless
 Github: https://github.com/knowledgeless/
 
 '''
@@ -14,7 +16,7 @@ try:
 	class Colors:
 			    Green = '\033[92m'
 			    Red = '\033[91m'
-			    White = '\033[99m'
+			    
 	def MassPdfDownload():
 		try:
 			import requests
