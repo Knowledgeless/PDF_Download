@@ -24,7 +24,7 @@ try:
 
 			print(Colors.Green+'''
 
-				This Script Will Work For "https://bdebooks.com/" only
+				This Script Will Work For "https://bdebooks.com/" and Its Genre
 				
 				''')
 
@@ -103,8 +103,8 @@ try:
 					print(Colors.Red+Colors.Red+"Sorry, Check Your Input!")
 			except KeyboardInterrupt:
 				print(Colors.Red+"\nYou Exited Manually")
-			# except:
-			# 	print("Check Your URL")
+			except:
+				print("Check Your URL")
 		except ValueError:
 			print(Colors.Red+"Value Error!") 
 		except ImportError:
@@ -115,6 +115,8 @@ try:
 				- tqdm
 				- requests
 				- bs4
+
+				Or, Your Manual Import May Be Wrong
 					
 				''')
 		except requests.exceptions.ConnectionError:
